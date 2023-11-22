@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar"/>
+
+    <!-- Dark Theme -->
+    <style name="AppTheme.Dark" parent="AppTheme">
+        <item name="android:windowBackground">@android:color/background_dark</item>
+        <item name="android:textColor">@android:color/primary_text_dark</item>
+        <!-- Add any additional dark theme customizations here. -->
+    </style>
+
+    <!-- Light Theme -->
+    <style name="AppTheme.Light" parent="AppTheme">
+        <item name="android:windowBackground">@android:color/background_light</item>
+        <item name="android:textColor">@android:color/primary_text_light</item>
+    </style>
+
+
+</resources>
